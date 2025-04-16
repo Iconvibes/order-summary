@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-@theme{
+@theme {
   --font-redHatDisplay: Red Hat Display, sans-serif;
   --color-paleBlue: hsl(225, 100%, 94%);
---color-brightBlue: hsl(245, 75%, 52%);
---color-veryPaleBlue: hsl(225, 100%, 98%);
---color-desaturatedBlue: hsl(224, 23%, 55%);
---color-darkBlue: hsl(223, 47%, 23%);
+  --color-brightBlue: hsl(245, 75%, 52%);
+  --color-veryPaleBlue: hsl(225, 100%, 98%);
+  --color-desaturatedBlue: hsl(224, 23%, 55%);
+  --color-darkBlue: hsl(223, 47%, 23%);
 }

@@ -19,19 +19,39 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="font-redHatDisplay">
-  Order Summary
+<body class="font-redHatDisplay p-7">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+  <!-- card container -->
+   <div class="container mx-auto md:max-w-[60%] lg:max-w-[50%] xl:max-w-[35%] pb-6 rounded-lg shadow-2xl shadow-darkBlue ">
+     
+    <img src="./images/illustration-hero.svg" alt="" class="rounded-t-lg w-full">
 
-  Annual Plan
-  $59.99/year
+    <h1 class="font-bold text-darkBlue text-2xl md:text-3xl text-center my-2">Order Summary </h1>
 
-  Change
+    <p class="font-medium text-lg text-center mx-1.5 mb-2 text-desaturatedBlue md:max-w-[85%] mx-auto">
+      You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!
+    </p>
 
-  Proceed to Payment
-  Cancel Order
+    <div class="flex  items-center justify-between mx-6 my-2 md:max-w-[80%]">
+
+      <div class="flex items-center justify-between space-x-3.5">
+        <img src="./images/icon-music.svg" alt="">
+      <h3 class="font-bold text-xl text-darkBlue">Annual Plan <br> <span class="font-medium">$59.99/year</span></h3>
+      </div>
+
+
+      <a href="#" class="font-bold underline text-brightBlue">Change</a>
+    </div>
+
+    <button class="block bg-brightBlue text-veryPaleBlue font-bold w-[85%] mx-auto p-2 rounded-lg hover:shadow-2xl hover:shadow-brightBlue hover:bg-desaturatedBlue my-5.5">
+      Proceed to Payment
+    </button>
+
+
+    <button class="block font-bold text-desaturatedBlue mx-auto hover:shadow-lg hover:shadow-desaturatedBlue py-3 px-7 hover:cursor-pointer rounded-lg">Cancel Order</button>
+    
+   </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
